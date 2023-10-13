@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/glide.core.min.css">
+    <script src="/javascripts/script.js" defer></script>
+    <script src="/javascripts/hover-effect.js" defer></script>
+    <script src="/javascripts/glide.main.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="behindimage">
+       
+      </div>
+      <nav>
+        <ul>
+          <li>World</li>
+          <li>Light</li>
+          <li>Peace</li>
+          <li>Water</li>
+        </ul>
+
+        <h4>WLPW</h4>
+
+        <div class="search">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+        </div>
+      </nav>
+
+      <main>
+        <div class="side-indicator">
+          <div class="line"></div>
+          <div class="index one active">
+            <p>1</p>
+          </div>
+          <div class="index two">
+            <p>2</p>
+          </div>
+          <div class="index three">
+            <p>3</p>
+          </div>
+          <div class="index four">
+            <p>4</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="text-wrapper">
+            <div class="text">
+              <div class="title" id="title">
+                <h4>NATURE</h4>
+                <h4>LIGHT</h4>
+                <h4>PEACE</h4>
+                <h4>WATER</h4>
+              </div>
+              <div class="description" id="description">
+                <p>
+                  Nature is a boundless tapestry of life, a sanctuary for the
+                  soul. It encompasses serene forests, cascading waterfalls, and
+                  vibrant blooms, each a testament to the wonders of existence.
+                  It teaches us humility, reminding us of our place within the
+                  greater cosmos, and offers solace in its embrace.
+                </p>
+                <p>
+                  Light is the eternal symbol of enlightenment and clarity. It
+                  transcends the boundaries of the physical world, illuminating
+                  our path, revealing the beauty hidden in shadows, and sparking
+                  the flame of knowledge. It embodies hope, bringing warmth to
+                  the darkest corners and serving as a guide through life's
+                  labyrinth
+                </p>
+                <p>
+                  Peace is the gentle breeze that stills the turbulent waters of
+                  the heart. It's a state of harmony where differences dissolve,
+                  and serenity prevails. In the absence of conflict, we find
+                  unity and compassion, and the promise of a better, more
+                  understanding world. Peace is the respite from the storms of
+                  existence, a treasure to be cherished.
+                </p>
+                <p>
+                  Water, the lifeblood of our planet, is the essence of
+                  sustenance and renewal. It quenches our thirst, nurtures the
+                  Earth's beauty, and sustains all life. In its flowing streams
+                  and deep oceans, it carries the stories of ages past and
+                  whispers the secrets of the natural world. Water, with its
+                  gentle or roaring currents, embodies the timeless cycle of
+                  life and rejuvenation.
+                </p>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="glide">
+          <div class="glide_cover"></div>
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="slide one">
+                  <p>somewhere in the world</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img
+                      src="/images/p1.jpg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <div class="bookmark">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="bookmark-icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide one">
+                  <p>somewhere in the world</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img
+                      src="/images/p2.jpg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <div class="bookmark">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="bookmark-icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide one">
+                  <p>somewhere in the world</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img
+                      src="/images/p3.jpg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <div class="bookmark">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="bookmark-icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide one">
+                  <p>somewhere in the world</p>
+                  <div class="rating">
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle active"></div>
+                    <div class="circle"></div>
+                  </div>
+                  <div class="slider-image">
+                    <img
+                      src="/images/p4.jpg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <div class="bookmark">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="bookmark-icon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div data-glide-el="controls" class="controls">
+            <div data-glide-dir="<" id="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrows">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+              
+            </div>
+            <div data-glide-dir=">" id="next">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="arrows">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+              
+              
+            </div>
+        </div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
